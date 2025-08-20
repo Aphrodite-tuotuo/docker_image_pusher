@@ -25,4 +25,5 @@
 #--platform=linux/arm64 openresty
 #--platform=linux/arm64 postgres:16.4
 #postgis/postgis
---platform=linux/arm64 openjdk:8
+#--platform=linux/arm64 openjdk:8
+--platform=linux/arm64 minio/minio:latest
