@@ -27,4 +27,7 @@
 #postgis/postgis
 #--platform=linux/arm64 openjdk:8
 #--platform=linux/arm64 minio/minio:latest
---platform=linux/arm64 rabbitmq:3.13-management
+#--platform=linux/arm64 rabbitmq:3.13-management
+elasticsearch
+logstash
+kibana
