@@ -29,5 +29,5 @@
 #--platform=linux/arm64 minio/minio:latest
 #--platform=linux/arm64 rabbitmq:3.13-management
 elasticsearch
-logstash
-kibana
+#logstash
+#kibana
