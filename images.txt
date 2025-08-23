@@ -1,8 +1,8 @@
 #指定AMD架构镜像区域
-nginx:latest
+#nginx:latest
 #redis:latest
 #tdengine/tdengine:latest
-minio/minio:latest
+#minio/minio:latest
 #guiji2025/heygem.ai
 #guiji2025/fun-asr
 #guiji2025/fish-speech-ziming
@@ -31,4 +31,6 @@ minio/minio:latest
 #elasticsearch:8.15.0
 #logstash:8.15.0
 #kibana:8.15.0
-rabbitmq
+--platform=linux/arm64 rabbitmq
+--platform=linux/arm64 minio/minio
+--platform=linux/arm64 nginx
