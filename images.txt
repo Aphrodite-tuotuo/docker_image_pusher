@@ -31,6 +31,7 @@
 #elasticsearch:8.15.0
 #logstash:8.15.0
 #kibana:8.15.0
---platform=linux/arm64 rabbitmq
---platform=linux/arm64 minio/minio
---platform=linux/arm64 nginx
+#--platform=linux/arm64 rabbitmq
+#--platform=linux/arm64 minio/minio
+#--platform=linux/arm64 nginx
+--platform=linux/arm64 openresty/openresty:alpine
