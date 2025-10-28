@@ -1,6 +1,6 @@
 #指定AMD架构镜像区域
 #nginx:latest
-#redis:latest
+redis:latest
 #tdengine/tdengine:latest
 #minio/minio:latest
 #guiji2025/heygem.ai
