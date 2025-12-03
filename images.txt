@@ -14,8 +14,8 @@
 #eqalpha/keydb:latest
 #apache/skywalking-oap-server
 #apache/skywalking-oap-server:10.3.0
-elasticsearch/elasticsearch:7.17.0
-elasticsearch/elasticsearch
+docker.elastic.co/elasticsearch/elasticsearch:7.17.0
+docker.elastic.co/elasticsearch/elasticsearch
 apache/skywalking-ui:10.3.0
 apache/skywalking-ui
 #指定ARM架构镜像区域
