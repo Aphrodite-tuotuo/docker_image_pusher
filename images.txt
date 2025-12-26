@@ -16,7 +16,8 @@
 #apache/skywalking-oap-server:9.5.0
 #docker.elastic.co/elasticsearch/elasticsearch:9.2.1
 #apache/skywalking-ui:latest
-openjdk:8-jre
+openjdk:8-jdk-alpine
+openjdk:8-alpine
 #指定ARM架构镜像区域
 #--platform=linux/arm64 redis:latest
 #--platform=linux/arm64 redis:7.2.11
