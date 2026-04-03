@@ -1,6 +1,6 @@
 #指定AMD架构镜像区域
 nginx:latest
-nacos:latest
+nacos/nacos-server:latest
 mongodb:latest
 rabbitmq:latest
 #redis:7.2.11
