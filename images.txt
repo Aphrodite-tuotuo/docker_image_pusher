@@ -1,9 +1,9 @@
 #指定AMD架构镜像区域
-#nginx:latest
+nginx:latest
 #nacos/nacos-server:latest
 #mongo:latest
 #rabbitmq:latest
-onlyoffice/documentserver:latest
+#onlyoffice/documentserver:latest
 #redis:7.2.11
 #redis:7.4.6
 #tdengine/tdengine:latest
