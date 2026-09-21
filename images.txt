@@ -1,5 +1,5 @@
 #指定AMD架构镜像区域
-#nginx:latest
+nginx:latest
 #nacos/nacos-server:latest
 #mongo:latest
 #rabbitmq:latest
