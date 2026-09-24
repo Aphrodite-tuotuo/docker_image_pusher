@@ -22,7 +22,7 @@
 #apache/skywalking-ui:latest
 #openjdk:8-jdk-alpine
 #openjdk:8-alpine
-minio/mc
+minio/mc:RELEASE.2024-09-16T17-43-14Z
 #指定ARM架构镜像区域
 --platform=linux/arm64 redis:latest
 #--platform=linux/arm64 redis:7.2.11
@@ -50,4 +50,4 @@ minio/mc
 #--platform=linux/arm64 nginx
 #--platform=linux/arm64 openresty/openresty:alpine
 #--platform=linux/arm64 mongo
---platform=linux/arm64 minio/mc
+--platform=linux/arm64 minio/mc:RELEASE.2024-09-16T17-43-14Z
