@@ -1,5 +1,5 @@
 #指定AMD架构镜像区域
-#nginx:latest
+nginx:latest
 #nacos/nacos-server:latest
 #mongo:latest
 #rabbitmq:latest
@@ -50,4 +50,4 @@ minio/mc:RELEASE.2024-09-16T17-43-14Z
 #--platform=linux/arm64 nginx
 #--platform=linux/arm64 openresty/openresty:alpine
 #--platform=linux/arm64 mongo
---platform=linux/arm64 minio/mc:RELEASE.2024-09-16T17-43-14Z
+#--platform=linux/arm64 minio/mc:RELEASE.2024-09-16T17-43-14Z
